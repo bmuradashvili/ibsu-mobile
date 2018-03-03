@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ge.edu.ibsu.mobile.berdia.labwork2.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/header_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="Header Image"
+            android:src="@drawable/header" />
+
+        <ImageButton
+            android:id="@+id/star_image_btn"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_stars_white_48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp"
+            android:background="@null"
+            android:layout_marginTop="175dp"
+            android:contentDescription="Star Button"
+            />
+
+        <LinearLayout
+            android:id="@+id/contact_info_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="350dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="50dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/google_voice_container"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/call_google_image_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:tint="@color/colorPrimary"
+                    android:src="@android:drawable/stat_sys_phone_call"
+                    android:background="@null"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="start"
+                    android:padding="10dp"
+                    android:paddingStart="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/phone_number_google"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:text="(650) 555-1234"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        />
+                    <TextView
+                        android:id="@+id/phone_number_description_google"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Google Voice"/>
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/send_message_google_image_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:src="@android:drawable/stat_notify_chat"
+                    android:backgroundTint="@android:color/holo_green_dark"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/personal_mobile_container"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/call_mobile_image_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:tint="@color/colorPrimary"
+                    android:src="@android:drawable/stat_sys_phone_call"
+                    android:visibility="invisible"
+                    android:background="@null"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="start"
+                    android:padding="10dp"
+                    android:paddingStart="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/phone_number_personal"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:text="(650) 555-4321"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        />
+                    <TextView
+                        android:id="@+id/phone_number_description_personal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile"/>
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/send_message_mobile_image_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:src="@android:drawable/stat_notify_chat"
+                    android:backgroundTint="@android:color/holo_green_dark"
+                    />
+
+            </LinearLayout>
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginStart="64dp"
+                android:background="@android:color/darker_gray"/>
+
+
+            <LinearLayout
+                android:id="@+id/email_contact_info_container"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/send_email_image_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:tint="@color/colorPrimary"
+                    android:src="@android:drawable/sym_action_email"
+                    android:background="@null"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="start"
+                    android:padding="10dp"
+                    android:paddingStart="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:text="studio@android.com"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        />
+                    <TextView
+                        android:id="@+id/email_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Work"/>
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/send_message_email_image_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:src="@android:drawable/stat_notify_chat"
+                    android:backgroundTint="@android:color/holo_green_dark"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
