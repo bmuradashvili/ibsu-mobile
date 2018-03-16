@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="one_hundred_twenty">120dp</dimen>
+    <dimen name="two_hundred_fifty">250dp</dimen>
+    <dimen name="twenty">20dp</dimen>
+</resources>

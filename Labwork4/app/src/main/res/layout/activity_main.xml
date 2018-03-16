@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="ge.edu.ibsu.mobile.berdia.labwork4.activities.MainActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="@dimen/two_hundred_fifty"
+        android:layout_height="wrap_content"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/etSurname"
+        android:layout_width="@dimen/two_hundred_fifty"
+        android:layout_height="wrap_content"
+        android:hint="@string/surname" />
+
+    <EditText
+        android:id="@+id/etMonthOfBirth"
+        android:layout_width="@dimen/two_hundred_fifty"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/month_of_birth" />
+
+    <EditText
+        android:id="@+id/etSeason"
+        android:layout_width="@dimen/two_hundred_fifty"
+        android:layout_height="wrap_content"
+        android:hint="@string/season" />
+
+    <EditText
+        android:id="@+id/etFavouriteLecture"
+        android:layout_width="@dimen/two_hundred_fifty"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="@string/android" />
+
+    <Button
+        android:id="@+id/bCalculate"
+        android:layout_marginTop="@dimen/twenty"
+        android:layout_width="@dimen/one_hundred_twenty"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate" />
+
+    <Button
+        android:id="@+id/bDetails"
+        android:layout_width="@dimen/one_hundred_twenty"
+        android:layout_height="wrap_content"
+        android:text="@string/details" />
+
+</LinearLayout>

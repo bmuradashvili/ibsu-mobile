@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Labwork4</string>
+    <string name="android">Android</string>
+    <string name="details">Details</string>
+    <string name="calculate">Calculate</string>
+    <string name="month_of_birth">Month of birth (1-12)</string>
+    <string name="surname">surname</string>
+    <string name="name">name</string>
+    <string name="season">Season</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+</resources>
