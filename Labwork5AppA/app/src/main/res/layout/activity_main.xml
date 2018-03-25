@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/one_hundred_fifty"
+    android:layout_marginEnd="@dimen/twenty"
+    android:layout_marginStart="@dimen/twenty"
+    android:layout_marginTop="@dimen/ten"
+    tools:context="ge.edu.ibsu.mobile.berdia.labwork5_appa.MainActivity">
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_hundred"
+        android:hint="@string/enter_you_message_here"
+        android:inputType="textMultiLine"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/bClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/clear" />
+
+    <Button
+        android:id="@+id/bSend"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/bClear"
+        android:background="@drawable/button_send"
+        android:enabled="false"
+        android:text="@string/send" />
+
+</RelativeLayout>

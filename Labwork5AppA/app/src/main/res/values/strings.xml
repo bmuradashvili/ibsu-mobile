@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Labwork 5 - AppA</string>
+    <string name="enter_you_message_here">Enter you message here</string>
+    <string name="clear">Clear</string>
+    <string name="send">Send</string>
+</resources>
