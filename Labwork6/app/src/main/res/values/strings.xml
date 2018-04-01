@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Labwork 6</string>
+    <string name="details">Details</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="full_info">Full Info</string>
+    <string name="field_name">Name: Kal El</string>
+    <string name="field_super_power">Super Powers: All</string>
+    <string name="field_friends">Friends: Wonder Woman, Cyborg, Batman, Flash</string>
+    <string name="field_enemies">Enemies: General Zod, Bizzaro, Lex Luthor</string>
+    <string name="field_bio">The legend began in the last years of the second millennium with a birth, not of this Earth. That child was Kal-El of Krypton, the sole survivor of a cataclysm that destroyed one of the most advanced and ancient civilizations in the galaxy. Kal-El was raised as a normal human child by the Kansas farmers Jonathan Kent and Martha Kent. It was their love and care that would transform one of the world\'s most powerful individuals from the product of a cold alien civilization into one of the noblest and charismatic men alive. Under the Earth-name of Clark Kent, he was a reporter for the Metropolis Daily Planet where he worked with his future wife Lois Lane. Kal-El is, however, more widely known by the name, Superman.</string>
+</resources>

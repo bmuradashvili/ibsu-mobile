@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rlBiography"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/ten">
+
+        <TextView
+            android:id="@+id/tvDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            android:textAlignment="center"
+            android:textSize="@dimen/eighteen"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivPicture"
+            android:layout_width="@dimen/one_hundred_fifty"
+            android:layout_height="@dimen/one_hundred_fifty"
+            android:layout_alignTop="@+id/tvDetails"
+            android:layout_marginTop="@dimen/twenty"
+            android:contentDescription="@string/profile_picture"
+            android:src="@drawable/superoid" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/thirty"
+            android:layout_toEndOf="@+id/ivPicture"
+            android:paddingLeft="@dimen/ten"
+            android:text="@string/field_name" />
+
+        <TextView
+            android:id="@+id/tvSuperPower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/sixty"
+            android:layout_toEndOf="@+id/ivPicture"
+            android:paddingLeft="@dimen/ten"
+            android:text="@string/field_super_power" />
+
+        <TextView
+            android:id="@+id/tvFriends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/ninety"
+            android:layout_toEndOf="@+id/ivPicture"
+            android:paddingLeft="@dimen/ten"
+            android:text="@string/field_friends" />
+
+        <TextView
+            android:id="@+id/tvEnemies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/one_hundred_thirty_five"
+            android:layout_toEndOf="@+id/ivPicture"
+            android:paddingLeft="@dimen/ten"
+            android:text="@string/field_enemies" />
+
+        <TextView
+            android:id="@+id/tvBio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/bFullInfo"
+            android:layout_marginTop="@dimen/sixty"
+            android:text="@string/field_bio" />
+
+        <Button
+            android:id="@+id/bFullInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/ivPicture"
+            android:layout_alignStart="@id/ivPicture"
+            android:layout_marginTop="@dimen/one_hundred_sixty"
+            android:gravity="center_horizontal"
+            android:text="@string/full_info"
+            android:textAllCaps="false"
+            android:textSize="@dimen/eighteen" />
+
+    </RelativeLayout>
+
+</ScrollView>
