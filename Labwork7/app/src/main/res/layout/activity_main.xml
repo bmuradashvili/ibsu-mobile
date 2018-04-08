@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="ge.edu.ibsu.mobile.berdia.labwork7.activities.MainActivity">
+
+    <TextView
+        android:id="@+id/tvHeroTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/twenty"
+        android:text="@string/givi"
+        android:textAlignment="center"
+        android:textSize="@dimen/twenty_two_sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvHeroTitle"
+        android:layout_marginEnd="@dimen/fifty"
+        android:layout_marginStart="@dimen/fifty"
+        android:text="@string/details"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tvHeroTitle"
+        android:layout_marginEnd="@dimen/fifty"
+        android:text="@string/image"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bWebView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bDetails"
+        android:layout_below="@+id/bDetails"
+        android:text="@string/web_view"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bOtherHeroes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bImage"
+        android:layout_below="@+id/bImage"
+        android:text="@string/other_heroes"
+        android:textAllCaps="false" />
+
+    <FrameLayout
+        android:id="@+id/fragmentPlaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/one_hundred_seventy" />
+
+</RelativeLayout>

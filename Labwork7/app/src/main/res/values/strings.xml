@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Labwork 7</string>
+    <string name="givi">Givi</string>
+    <string name="details">Details</string>
+    <string name="web_view">Web View</string>
+    <string name="image">Image</string>
+    <string name="main_picture">Main picture</string>
+    <string name="go_full_screen">Go full screen</string>
+    <string name="share">Share</string>
+    <string name="title_activity_full_description">Full Description</string>
+    <string name="givi_description">გივი სიხარულიძე დაიბადა 1944 წლის 28 თებერვალს, ქალაქ თბილისში, პედაგოგების ოჯახში. მამა, დიმიტრი სიხარულიძე, პროფესიით ისტორიკოსი, წლების განმავლობაში სკოლის დირექტორად მუშაობდა. დედა, ეთერ ტალალაევა - სიხარულიძე, რუსული ენისა და ლიტერატურის პედაგოგი გახლდათ.  გივი სიხარულიძე 1961 წელს, 85-ე საშუალო სკოლის დამთავრების შემდეგ, სასოფლო - სამეურნეო ინსტიტუტში ჩაირიცხა, სადაც 1969 წლამდე იღებდა განათლებას. ამავდროულად, იგი ვახტანგ ჭაბუკიანის სახელობის ქორეოგრაფიულ სტუდიაში სწავლობდა. 1961 წელს გახდა სუხიშვილისა და რამიშვილის სახელმწიფო აკადემიური ანსამბლის სოლისტი.  1988 – 2006 წლებში ბატონი გივი სახელმწიფო ფოლკლორულ ანსამბლ \"თბილისის\" სამხატვრო ხელმძღვანელი და მთავარი ბალეტმეისტერი იყო. იგი არის რესპუბლიკის დამსახურებული არტისტი. 70 წლის იუბილეზე მას მიენიჭა რაინდის წოდება ქორეოგრაფიაში გაწეული ღვაწლისთვის.</string>
+   <string name="other_heroes">Other Heroes</string>
+    <string name="feminists"><b>Weakness:</b> Feminists</string>
+    <string name="_25_centimeter"><b>Strength:</b> 25 Centimeter</string>
+</resources>
