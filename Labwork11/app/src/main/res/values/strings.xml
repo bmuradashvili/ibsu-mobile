@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Labwork 11</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="cancel">Cancel</string>
+    <string name="email">Email</string>
+    <string name="people_list">People list</string>
+    <string name="email_not_found">Ooops, we messed up!</string>
+</resources>

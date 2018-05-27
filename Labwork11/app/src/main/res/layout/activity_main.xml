@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <Button
+        android:id="@+id/bPeopleList"
+        android:layout_width="@dimen/one_hundred_fifty"
+        android:layout_height="wrap_content"
+        android:text="@string/people_list"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/bEmail" />
+
+    <Button
+        android:id="@+id/bEmail"
+        android:layout_width="@dimen/one_hundred_fifty"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        app:layout_constraintLeft_toRightOf="@id/bPeopleList"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/fragmentPlaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/fifty"
+        app:layout_constraintTop_toBottomOf="@id/bPeopleList" />
+
+</android.support.constraint.ConstraintLayout>
